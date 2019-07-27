@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7830011823713676736}
   - component: {fileID: 8387496049940956699}
+  - component: {fileID: 7225839600339596168}
   m_Layer: 0
   m_Name: DestroyBox
-  m_TagString: Untagged
+  m_TagString: DestroyBox
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55,5 +56,17 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.2167244}
+  m_Size: {x: 1.12, y: 0.2167244}
   m_EdgeRadius: 0
+--- !u!114 &7225839600339596168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7830011823713676743}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcef831288c7dc4439a9df938ac3a690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

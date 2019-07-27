@@ -137,7 +137,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5946633310110189789}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 437384697792c0a4282c7a2e8aab4ad4, type: 3}
@@ -238,4 +238,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4032465f42f99e544b4c61b3ba9b33bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedBullet: 2
+  speedBullet: 4

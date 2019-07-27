@@ -28,8 +28,8 @@ public class YellowBullet : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Rock"))
         {
-            collision.gameObject.SetActive(false);
-            Debug.Log("Va cham voi da");
+            Destroy(collision.gameObject);
         }
     }
+
 }

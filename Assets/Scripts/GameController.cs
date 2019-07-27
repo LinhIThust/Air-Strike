@@ -21,8 +21,7 @@ public class GameController : MonoBehaviour
     }
     private void Update()
     {
-       
-
+        
     }
 
     public void PauseGame()

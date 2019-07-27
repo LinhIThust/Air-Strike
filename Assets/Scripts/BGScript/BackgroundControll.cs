@@ -14,9 +14,11 @@ public class BackgroundControll : MonoBehaviour
     }
     void Start()
     {
+        scrollSpeed = 0.07f;
         var heighBG = Camera.main.orthographicSize * 2f;
         var widthBG = heighBG * Screen.width / Screen.height;
         transform.localScale = new Vector3(widthBG, heighBG, 0);
+
         offset = material.GetTextureOffset("_MainTex");
 
     }
